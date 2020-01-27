@@ -1,0 +1,111 @@
+body {
+  margin: 0px auto;
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(117, 175, 150, 0.6);
+  height: 40px;
+  align-items: center;
+}
+
+#random-gifs {
+  width: 33%;
+  height: 500px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+a:link{
+  color: #FFC2AA;
+}
+
+a:visited{
+  color: #FFC2AA;
+}
+
+.header-buttons{
+margin: 20px;
+}
+
+.title{
+  color: #D4886A;
+  text-align: center;
+}
+
+.section {
+  height: 700px;
+}
+
+.section-style{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+#other-profiles {
+  height: auto;
+  width: 33%;
+  display: flex;
+  flex-flow: column;
+}
+
+.profile {
+  background-color: rgba(212, 167, 106, 0.7);
+  border: 1px dashed gray;
+  width: 50%;
+  height: 200px;
+  margin: 20px;
+}
+
+.profile-images {
+    border: 1px dashed gray;
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+
+}
+
+.names-align {
+  text-align: center;
+  margin: 1px 0px 5px 0px;
+}
+
+
+#top-profile {
+  height: auto;
+  width: 33%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.top-profile-image {
+  display: block;
+  object-fit: cover;
+  width: 300px;
+  height: 337px;
+  margin: 80px auto 0px auto;
+  width: 70%;
+}
+
+.top-profile-text {
+  width: 80%;
+  height: 350px;
+  margin: 20px;
+}
+
+.top-profile-text-margin {
+  color: black;
+  margin: 10px;
+}

@@ -1,0 +1,72 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+main{
+  display: flex;
+  justify-content: space-around;
+}
+
+.randomCatGifClass {
+  width: 33%;
+}
+
+.text-align{
+  text-align: center
+}
+.other-profiles{
+  width: 33%;
+}
+
+.home-profile {
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
+.div-block-color {
+  color: #551800;
+}
+
+.div-background-color {
+  background-color: rgba(117, 175, 150, 0.6);
+}
+
+.green-border {
+  border-color: rgba(117, 175, 150, 0.2);;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.smaller-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+[type='checkbox radio']{
+  margin: 10px 0px 15px 0px;
+}
+
+.black-background{
+background-color: black;
+}
+
+.bold-text-title{
+  font-weight: bold;
+  text-decoration: underline;
+  color: #FFC2AA;
+}
+
+.bold-text{
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+}
+
+.flex{
+  justify-content: flex-end;
+  margin-left: auto;
+  display: flex;
+}
